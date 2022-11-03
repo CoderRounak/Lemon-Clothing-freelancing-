@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+nav.navbar.bg-dark
+{
+  background-image: linear-gradient(to right, rgb(122, 92, 241) , rgb(57, 25, 112));
+  /* background-color: rgb(128, 128, 128); */
+  font-family: 'Scope One', serif;
+  font-weight: 400;
+}
+
+nav .collapse .nav-item .nav-link
+{
+    color: rgb(255, 255, 255);
+    
+}
+
+nav .collapse .nav-item .nav-link:hover
+{
+    font-weight: 800;
+}
+nav .collapse .nav-item .nav-link.act
+{
+    font-weight: 800;
+}
+
+/* icons */
+i{
+  cursor: pointer;
+}
